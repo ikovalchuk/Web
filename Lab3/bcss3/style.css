@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: Aril;
+	line-height: 1.2;
+}
+
+.wrap {
+	width: 800px;
+	margin: 10px auto;
+}
+
+.main-img {
+	width: 100%;
+	margin: px 0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+	border-bottom: 1px dotted;
+	padding-bottom: 30px;
+}
+
+p {
+	margin: 20px 0;
+	text-indent: 30px;
+}
+
+.second-img {
+	width: 30%;
+	float: right;
+	margin: 30px 30px 30px;
+}
+
+.footer {
+	background: cadetblue;
+	text-align: center;
+	padding: 30px;
+	color: #fff;
+}
