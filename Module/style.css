@@ -1,0 +1,42 @@
+.square {
+    width: 200px;
+    height: 200px;
+    background: #FFEFD5;
+    margin: 200px auto;
+}
+
+.triangle{
+	position: relative;
+	top: 30px;
+	margin: auto;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid green;
+}
+.mini-tri1 {
+	position: absolute;
+	top: 30px;
+	left: 900px;
+	width: 0;
+	height: 0;
+	border-bottom: 70px solid #E6E6FA; 
+	border-right: 70px solid transparent;	
+	opacity: 0;
+}
+
+.mini-tri2 {
+	position: absolute;
+	top: 30px;
+	left: 915px;
+	width: 0;
+	height: 0;
+	border-top: 70px solid #E6E6FA; 
+	border-left: 70px solid transparent;
+	opacity: 0;
+}
+
+.square:hover .mini-tri1, .square:hover .mini-tri2{
+    opacity: 1;
+}
