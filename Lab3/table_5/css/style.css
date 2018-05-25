@@ -1,0 +1,77 @@
+*{
+    background: rgb(211, 175, 171);
+	font-family: Gill Sans Extrabold, sans-serif;
+}
+
+.head{
+    background: transparent;
+    border: none;
+}
+
+table {
+    font-size: 15px;
+    font-weight: bold;
+    border-collapse: collapse;
+    border-spacing: 1px;
+}
+
+.row1{
+	background: rgb(29,35,38);
+    padding: 15px;
+    color: rgb(235, 235, 235);
+    border: 10px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.ColumnText{
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    color: #252A2D;
+    border-right: 1px solid rgb(208, 208, 208);
+    border-top: 1px solid rgb(208, 208, 208);
+    min-width: 200px;
+}
+
+.Column{
+    padding: 15px;
+    color: #fff;
+    background: linear-gradient(to top, rgb(214,72,61) , rgb(229,84,71));
+    border-color: black;
+    min-width: 170px;
+}
+
+.button{
+    text-align: center;
+	padding-bottom: 13px;
+    padding-top: 13px;
+    background-color: rgb(235, 235, 235);
+	border-right: 1px solid rgb(208, 208, 208);
+    border-top: 1px solid rgb(208, 208, 208);
+    color: rgb(37, 42, 45); 
+}
+
+.But{
+  width: 105px;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background: rgb(214,72,61);
+  border-radius: 4px;
+}
+
+.footer{
+    color: rgb(156, 208, 9);
+    font-size: 32px;
+    text-align: center;
+    padding: 10px 0px;
+    background: transparent;
+}
+
+.footerT{
+    color: #666;
+    background: transparent;
+    border-right: 3px solid white;
+}
