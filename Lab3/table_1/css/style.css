@@ -1,0 +1,37 @@
+table {
+    font-family: Gill Sans Extrabold, sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    min-width: 70px;
+}
+
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    min-width: 70px;
+}
+
+td {
+    background:  rgb(211, 231, 244);
+	min-width: 120px;
+}
+
+th, td:first-child {
+    background: rgb(163,206,233);
+    color: white;
+    padding: 12px 25px;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+
