@@ -1,0 +1,50 @@
+table {
+	border-collapse:separate;
+    font-size: 16px;
+    font-weight: bold;
+	font-family: Gill Sans Extrabold, sans-serif;
+}
+
+.FirstRow{
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    border-bottom:3px solid rgb(158, 217, 41);
+    background: linear-gradient(to top, rgb(123,192,67) , rgb(158,217,41)); 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.NoneTh{
+    background: transparent;
+    border: none;
+}
+
+.HeadText {
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    border-right: 3px solid rgb(158, 217, 41);
+    background: linear-gradient(to top  left, rgb(123,192,67) , rgb(158,217,41)); 
+    border-top-left-radius:6px;
+    border-bottom-left-radius:6px;
+}
+
+.HeadText1 {
+    padding:12px;
+    text-align:center;
+    background-color: rgb(222, 243, 202);
+    color: rgb(102, 102, 102);
+}
+
+.footer{
+    color: rgb(156, 208, 9);
+    font-size:32px;
+    text-align:center;
+    padding:10px 0px;
+    background: transparent;
+}
+
+.footerT{
+    color:#666;
+    background: transparent;
+    border-right: 3px solid white;
+}
